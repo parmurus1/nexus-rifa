@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   
-  <script defer src="/_vercel/insights/script.js"></script>
+  <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
   
   <style>
     :root{--red:#e8220a;--red-dim:#a01a07;--red-glow:rgba(232,34,10,0.2);--bg:#080808;--bg2:#111;--bg3:#191919;--bg4:#222;--border:rgba(255,255,255,0.07);--border-s:rgba(255,255,255,0.13);--text:#ede9e3;--text2:#7a7672;--text3:#3a3836;--glass:rgba(8,8,8,0.9);--radius:14px;--radius-sm:8px;--tr:0.28s cubic-bezier(0.4,0,0.2,1);}
@@ -160,7 +160,7 @@ function renderShow(s){
     <div>
       <div class="show-nome">${s.nome}</div>
       <div class="show-local">📍 ${s.local||'Local a confirmar'}</div>
-      ${s.hora?`<div class="show-horario">🕐 ${s.hora}</div>`:''}
+      ${s.hora?`<div class="show-horario">��� ${s.hora}</div>`:''}
       ${(s.gratuito || !s.link)?`<span class="show-link" style="color:#3dbb80;cursor:default;">✓ Entrada gratuita</span>`:`<a href="${s.link}" target="_blank" class="show-link">🎟 Ingressos →</a>`}
     </div>
     <span class="show-tag ${tag.cls}">${tag.label}</span>
